@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FDA32BB2258100D0016EA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32BA2258100D0016EA60 /* AppDelegate.swift */; };
+		8F0CFCBD2258E89A0051BDA0 /* Heritage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F0CFCBB2258E89A0051BDA0 /* Heritage.xcdatamodeld */; };
+		8F46934A2258304E00A2DEF8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4693492258304E00A2DEF8 /* TableViewCell.swift */; };
+		8F8766A2225AA554004C8054 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8766A1225AA554004C8054 /* ModelController.swift */; };
+		8F8766A4225AE675004C8054 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8766A3225AE675004C8054 /* ModelViewController.swift */; };
+		8F8D050522590F09001A6980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D050422590F08001A6980 /* AppDelegate.swift */; };
+		8F8D050722592C09001A6980 /* AddUpdateHeritageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D050622592C09001A6980 /* AddUpdateHeritageViewController.swift */; };
+		8F8D050B22596372001A6980 /* SelectedHeritageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D050A22596372001A6980 /* SelectedHeritageViewController.swift */; };
+		8F8D050D22597A81001A6980 /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D050C22597A81001A6980 /* MoreInformationViewController.swift */; };
+		8F8D050F225984A7001A6980 /* editicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8D050E225984A6001A6980 /* editicon.png */; };
+		8F8D0511225993A0001A6980 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D0510225993A0001A6980 /* WebsiteViewController.swift */; };
 		8FDA32BD2258100D0016EA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32BC2258100D0016EA60 /* ViewController.swift */; };
 		8FDA32C02258100D0016EA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA32BE2258100D0016EA60 /* Main.storyboard */; };
-		8FDA32C32258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32C12258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodeld */; };
 		8FDA32C52258100E0016EA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA32C42258100E0016EA60 /* Assets.xcassets */; };
 		8FDA32C82258100E0016EA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA32C62258100E0016EA60 /* LaunchScreen.storyboard */; };
+		8FDA32D2225815C20016EA60 /* heritage.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA32D1225815C20016EA60 /* heritage.xml */; };
+		8FDA32D42258165D0016EA60 /* HeritageModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32D32258165D0016EA60 /* HeritageModelClass.swift */; };
+		8FDA32D6225817560016EA60 /* HeritageIndiaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32D5225817560016EA60 /* HeritageIndiaTableViewController.swift */; };
+		8FDA32D822581E700016EA60 /* XMLHeritageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA32D722581E700016EA60 /* XMLHeritageParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F0CFCBC2258E89A0051BDA0 /* Heritage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heritage.xcdatamodel; sourceTree = "<group>"; };
+		8F4693492258304E00A2DEF8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8F8766A1225AA554004C8054 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		8F8766A3225AE675004C8054 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		8F8D050422590F08001A6980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F8D050622592C09001A6980 /* AddUpdateHeritageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateHeritageViewController.swift; sourceTree = "<group>"; };
+		8F8D050A22596372001A6980 /* SelectedHeritageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedHeritageViewController.swift; sourceTree = "<group>"; };
+		8F8D050C22597A81001A6980 /* MoreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
+		8F8D050E225984A6001A6980 /* editicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editicon.png; sourceTree = "<group>"; };
+		8F8D0510225993A0001A6980 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
 		8FDA32B72258100D0016EA60 /* HeritageIndia-CoreDataApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeritageIndia-CoreDataApplication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FDA32BA2258100D0016EA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDA32BC2258100D0016EA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FDA32BF2258100D0016EA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FDA32C22258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeritageIndia_CoreDataApplication.xcdatamodel; sourceTree = "<group>"; };
 		8FDA32C42258100E0016EA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FDA32C72258100E0016EA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FDA32C92258100E0016EA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDA32D1225815C20016EA60 /* heritage.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = heritage.xml; sourceTree = "<group>"; };
+		8FDA32D32258165D0016EA60 /* HeritageModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageModelClass.swift; sourceTree = "<group>"; };
+		8FDA32D5225817560016EA60 /* HeritageIndiaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageIndiaTableViewController.swift; sourceTree = "<group>"; };
+		8FDA32D722581E700016EA60 /* XMLHeritageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLHeritageParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +80,25 @@
 		8FDA32B92258100D0016EA60 /* HeritageIndia-CoreDataApplication */ = {
 			isa = PBXGroup;
 			children = (
-				8FDA32BA2258100D0016EA60 /* AppDelegate.swift */,
+				8F8D050E225984A6001A6980 /* editicon.png */,
+				8F8D050422590F08001A6980 /* AppDelegate.swift */,
+				8F4693492258304E00A2DEF8 /* TableViewCell.swift */,
 				8FDA32BC2258100D0016EA60 /* ViewController.swift */,
 				8FDA32BE2258100D0016EA60 /* Main.storyboard */,
 				8FDA32C42258100E0016EA60 /* Assets.xcassets */,
 				8FDA32C62258100E0016EA60 /* LaunchScreen.storyboard */,
 				8FDA32C92258100E0016EA60 /* Info.plist */,
-				8FDA32C12258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodeld */,
+				8FDA32D1225815C20016EA60 /* heritage.xml */,
+				8FDA32D32258165D0016EA60 /* HeritageModelClass.swift */,
+				8FDA32D5225817560016EA60 /* HeritageIndiaTableViewController.swift */,
+				8FDA32D722581E700016EA60 /* XMLHeritageParser.swift */,
+				8F0CFCBB2258E89A0051BDA0 /* Heritage.xcdatamodeld */,
+				8F8D050622592C09001A6980 /* AddUpdateHeritageViewController.swift */,
+				8F8D050A22596372001A6980 /* SelectedHeritageViewController.swift */,
+				8F8D050C22597A81001A6980 /* MoreInformationViewController.swift */,
+				8F8D0510225993A0001A6980 /* WebsiteViewController.swift */,
+				8F8766A1225AA554004C8054 /* ModelController.swift */,
+				8F8766A3225AE675004C8054 /* ModelViewController.swift */,
 			);
 			path = "HeritageIndia-CoreDataApplication";
 			sourceTree = "<group>";
@@ -125,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8D050F225984A7001A6980 /* editicon.png in Resources */,
+				8FDA32D2225815C20016EA60 /* heritage.xml in Resources */,
 				8FDA32C82258100E0016EA60 /* LaunchScreen.storyboard in Resources */,
 				8FDA32C52258100E0016EA60 /* Assets.xcassets in Resources */,
 				8FDA32C02258100D0016EA60 /* Main.storyboard in Resources */,
@@ -138,9 +176,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDA32C32258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodeld in Sources */,
+				8FDA32D822581E700016EA60 /* XMLHeritageParser.swift in Sources */,
 				8FDA32BD2258100D0016EA60 /* ViewController.swift in Sources */,
-				8FDA32BB2258100D0016EA60 /* AppDelegate.swift in Sources */,
+				8F0CFCBD2258E89A0051BDA0 /* Heritage.xcdatamodeld in Sources */,
+				8FDA32D6225817560016EA60 /* HeritageIndiaTableViewController.swift in Sources */,
+				8F8D050D22597A81001A6980 /* MoreInformationViewController.swift in Sources */,
+				8F8D050722592C09001A6980 /* AddUpdateHeritageViewController.swift in Sources */,
+				8F8D050522590F09001A6980 /* AppDelegate.swift in Sources */,
+				8F8D0511225993A0001A6980 /* WebsiteViewController.swift in Sources */,
+				8F46934A2258304E00A2DEF8 /* TableViewCell.swift in Sources */,
+				8F8766A2225AA554004C8054 /* ModelController.swift in Sources */,
+				8F8766A4225AE675004C8054 /* ModelViewController.swift in Sources */,
+				8F8D050B22596372001A6980 /* SelectedHeritageViewController.swift in Sources */,
+				8FDA32D42258165D0016EA60 /* HeritageModelClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,13 +390,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8FDA32C12258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodeld */ = {
+		8F0CFCBB2258E89A0051BDA0 /* Heritage.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8FDA32C22258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodel */,
+				8F0CFCBC2258E89A0051BDA0 /* Heritage.xcdatamodel */,
 			);
-			currentVersion = 8FDA32C22258100D0016EA60 /* HeritageIndia_CoreDataApplication.xcdatamodel */;
-			path = HeritageIndia_CoreDataApplication.xcdatamodeld;
+			currentVersion = 8F0CFCBC2258E89A0051BDA0 /* Heritage.xcdatamodel */;
+			path = Heritage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
